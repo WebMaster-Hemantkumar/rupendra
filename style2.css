@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: gold;
+    height: 100vh;;
+    width: 100%;
+
+    
+}
+header{
+    height: 120px;
+    background: honeydew;
+}
+.logo{
+    height: 120px;width: 50%;
+    background: ivory;
+    float: left;
+}
+.contact{
+    height: 120px;width: 50%;
+    background: hotpink;
+    float: left;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: lavender;
+}
+.slider{
+    height: 450px;
+    width: 100%;
+    background-color: lemonchiffon;
+}
+.team{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+}
+.team1{
+    height: 350px;
+    width: 33.33%;
+    background-color: lawngreen;
+    float: left;
+}
+.team2{
+    height: 350px;
+    width: 33.33%;
+    background-color: khaki;
+    float: left;
+}
+.team3{
+    height: 350px;
+    width: 33.3%;
+    background-color: hotpink;
+    float: left;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.aboutus{
+    height: 500px;width: 100%;
+    background-color: red;
+}
+.aboutusImg{
+  height: 500px;width: 50%;
+   background-color: white;;
+  float: left;
+}
+.aboutusContect{
+  height: 500px;width: 50%;
+  background-color: gold;
+  float: left;
+}
+/* mobile for landscap view  */
+@media only screen and (max-width: 638px)and (min-width: 320px)  {
+    .team{
+        height: 350px;
+        width: 100%;
+        background-color: blue;
+    }
+    .team1{
+        height: 350px;
+        width: 100%;
+        background-color: lawngreen;
+      
+    }
+    .team2{
+        height: 350px;
+        width: 100%;
+        background-color: khaki;
+
+   
+    }
+    .team3{
+        height: 350px;
+        width: 100%;
+        background-color: hotpink;
+        
+    }
+
+    .aboutus{
+        height: 500px;width: 100%;
+        background-color: white;
+    }
+    .aboutusImg{
+        height: 500px;width: 100%;
+    background-color: white;
+     
+  }
+  
+
+
+  
+  .aboutusContect{
+      height: 500px;width: 100%;
+    background-color: white;
+     
+  }
+
+  .aboutusContect p{
+font-size: 20px;
+text-align: justify;
+padding-left: 20px;
+padding-right: 20px;
+font-family: 'Lato', Helvetica, Arial, sans-serif;
+  }
+}
+  
+  
+
+  
